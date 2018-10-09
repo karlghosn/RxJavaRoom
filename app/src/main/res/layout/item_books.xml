@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_books"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image_background"
+            android:layout_width="110dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|start"
+            android:contentDescription="@string/image_description" />
+
+        <LinearLayout
+            android:id="@+id/layout_partner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_books_author"
+                style="@style/TextAppearance.MaterialComponents.Overline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingRight="@dimen/margin_large" />
+
+            <TextView
+                android:id="@+id/text_books_title"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_small"
+                android:paddingRight="@dimen/margin_large" />
+
+            <TextView
+                android:id="@+id/text_books_description"
+                style="@style/TextAppearance.MaterialComponents.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_large" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

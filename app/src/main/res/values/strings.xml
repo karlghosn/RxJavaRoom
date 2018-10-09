@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RxJava/Room</string>
+    <string name="image_description">Image Description</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="description">Description</string>
+    <string name="add_book">Add Book</string>
+
+    <string-array name="images">
+        <item>https://api.androidhive.info/images/realm/1.png</item>
+        <item>https://api.androidhive.info/images/realm/2.png</item>
+        <item>https://api.androidhive.info/images/realm/3.png</item>
+        <item>https://api.androidhive.info/images/realm/4.png</item>
+        <item>https://api.androidhive.info/images/realm/5.png</item>
+    </string-array>
+</resources>
